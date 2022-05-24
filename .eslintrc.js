@@ -48,6 +48,9 @@ module.exports = {
     "import/prefer-default-export": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-var-requires": "off",
-    'prettier/prettier': ['error', { singleQuote: true }]
+    'prettier/prettier': ['error', { singleQuote: true }],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/display-name": "off"
   },
 };
